@@ -1,0 +1,15 @@
+/target
+**/*.rs.bk
+
+# Python build / test artifacts
+__pycache__/
+*.so
+*.pyc
+.venv/
+.pytest_cache/
+dist/
+*.egg-info/
+
+# Local editor / tooling config, never committed
+CLAUDE.md
+.claude/
